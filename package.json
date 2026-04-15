@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-ashby",
+  "version": "0.1.0",
+  "description": "Ashby MCP Pack — wraps the Ashby ATS API",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ashby"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-ashby"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
