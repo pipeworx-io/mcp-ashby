@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/ashby",
   "title": "Ashby",
-  "description": "Ashby MCP Pack \u2014 wraps the Ashby ATS API",
-  "version": "0.1.0",
+  "description": "Ashby MCP Pack — wraps the Ashby ATS API",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/ashby",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ashby",
