@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ashby",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ashby MCP Pack — wraps the Ashby ATS API",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-0f01b9320c4c4ad8d3f6dae8210c879197424cc3b50ebae467e18d1859f0504b",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-059016541e976e86258a5bc64b2f8bcc0550118c13580b12a6fa9d31a070f09f",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }
