@@ -1,0 +1,112 @@
+[
+  {
+    "name": "ashby_list_candidates",
+    "description": "Search candidates in your ATS. Returns names, emails, and application metadata. Use ashby_get_candidate with ID for full profile details.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "_apiKey": {
+          "type": "string",
+          "description": "Ashby API key"
+        },
+        "cursor": {
+          "type": "string",
+          "description": "Pagination cursor from a previous response"
+        },
+        "per_page": {
+          "type": "number",
+          "description": "Number of candidates per page (default 50)"
+        }
+      },
+      "required": [
+        "_apiKey"
+      ]
+    }
+  },
+  {
+    "name": "ashby_get_candidate",
+    "description": "Get full candidate profile by ID. Returns contact info, resume, interview history, and current application status.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "_apiKey": {
+          "type": "string",
+          "description": "Ashby API key"
+        },
+        "candidateId": {
+          "type": "string",
+          "description": "Ashby candidate ID"
+        }
+      },
+      "required": [
+        "_apiKey",
+        "candidateId"
+      ]
+    }
+  },
+  {
+    "name": "ashby_list_jobs",
+    "description": "Search open positions. Filter by status (open, closed, draft, archived). Returns job title, department, and posting details.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "_apiKey": {
+          "type": "string",
+          "description": "Ashby API key"
+        },
+        "status": {
+          "type": "string",
+          "description": "Filter by job status: Open, Closed, Draft, Archived"
+        }
+      },
+      "required": [
+        "_apiKey"
+      ]
+    }
+  },
+  {
+    "name": "ashby_get_job",
+    "description": "Get full job posting by ID. Returns description, requirements, hiring stage, and applicant count.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "_apiKey": {
+          "type": "string",
+          "description": "Ashby API key"
+        },
+        "jobId": {
+          "type": "string",
+          "description": "Ashby job ID"
+        }
+      },
+      "required": [
+        "_apiKey",
+        "jobId"
+      ]
+    }
+  },
+  {
+    "name": "ashby_list_applications",
+    "description": "Search job applications across positions. Returns candidate name, applied job, application stage, and submission date.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "_apiKey": {
+          "type": "string",
+          "description": "Ashby API key"
+        },
+        "cursor": {
+          "type": "string",
+          "description": "Pagination cursor from a previous response"
+        },
+        "per_page": {
+          "type": "number",
+          "description": "Number of applications per page (default 50)"
+        }
+      },
+      "required": [
+        "_apiKey"
+      ]
+    }
+  }
+]
