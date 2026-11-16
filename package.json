@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-ashby",
-  "version": "0.2.1",
-  "description": "Ashby MCP Pack — wraps the Ashby ATS API",
+  "version": "0.2.2",
+  "description": "Unofficial Ashby MCP Pack — wraps the Ashby ATS API",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "ashby",
     "gatewaySlug": "ashby",
-    "sourceHash": "v1-702966ddb2d2120be6cf640586d05c2a8d55c65301a99ec2d044b2956621b1cf",
-    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
+    "sourceHash": "v1-f67879f834f84a2f32d9cc18ffc7aa2f39db3ee1772cc329ff9afe5875feffb2",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }
